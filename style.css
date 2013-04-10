@@ -1,0 +1,17 @@
+html, body { padding: 0; margin: 0; background-color: #2D2D2D; }
+.clearfix { clear: both; }
+
+.container { height: 297mm; width: 210mm; margin: 0 auto; background-color: #F8F8F8; }
+.content section { margin-bottom: 20px; }
+.content section h2 { border-bottom: 5px solid #3B89CA; margin: 0; padding: 0; }
+.content section h2 span { background-color: #3B89CA; color: #F2F7FD; margin: 0; 
+    padding: 7px 15px 3px 15px; font-size: 0.8em; }
+
+#header { padding: 10px; }
+#header h1 { margin: 0; color: #3C89CB; font-size: 1.8em; }
+#header h1 strong { color: #6E6D71; font-size: 0.8em; }
+
+#contact { float: right; width: 60mm; background-color: #E6E1DD; }
+#contact h2 { border-bottom-width: 0; }
+#contact h2 span { display: block; background-color: #484242; }
+
