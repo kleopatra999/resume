@@ -1,6 +1,6 @@
 @echo off
 title Deploying resume files ...
-git checkout gh-pages
+git checkout -B gh-pages
 rd /S /Q .git
 git add .
 git commit -m "First Commit"
