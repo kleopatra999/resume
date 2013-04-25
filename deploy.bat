@@ -1,13 +1,9 @@
-@echo off
 title Deploying resume files ...
-git branch -d -f gh-pages
-git checkout --orphan gh-pages
-xcopy /E /H .git resume\.git
+@git branch -D gh-pages
+git checkout --orphan gh-pages origin/gh-pages
+
+move %CD%\.git %CD%\resume\.git
+
 cd resume
+git add .
 git commit -m "First Commit"
-git push --force origin gh-pages
-cd ..
-git clean -f
-git checkout master
-echo Everything is done.
-pause
