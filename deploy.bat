@@ -6,5 +6,5 @@ git rm -r -q --cached .
 xcopy /E /H /R /K /Y /I .git resume\.git
 rd /S /Q .git
 
-cd resume
+cd resume && git add . && git commit -m "First Commit"
 
