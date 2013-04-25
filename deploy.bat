@@ -7,6 +7,4 @@ xcopy /E /H /R /K /Y /I .git resume\.git
 rd /S /Q .git
 
 cd resume
-git add .
-git c -am "First Commit"
 
