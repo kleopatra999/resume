@@ -29,11 +29,11 @@ section ul.record-list li dl dd { display: inline-block; width: 660px; margin-le
 #contact ul { padding-left: 20px;  }
 #contact ul li { margin-bottom: 5px; }
 #contact ul li.icon { padding-left: 24px; background-repeat: no-repeat; background-position: left center; }
-#contact ul li.icon-home { background-image: url(img/home.png); }
-#contact ul li.icon-phone { background-image: url(img/mobile.png); }
-#contact ul li.icon-email { background-image: url(img/mail.png); }
-#contact ul li.icon-blog { background-image: url(img/earth.png); }
-#contact ul li.icon-github { background-image: url(img/github.png); }
+#contact ul li.icon-home { background-image: url(home.png); }
+#contact ul li.icon-phone { background-image: url(mobile.png); }
+#contact ul li.icon-email { background-image: url(mail.png); }
+#contact ul li.icon-blog { background-image: url(earth.png); }
+#contact ul li.icon-github { background-image: url(github.png); }
 
 #skills { padding-bottom: 20px; margin-bottom: 0; }
 #skills h3 { padding: 0 7px 0; margin: 27px 80px 17px 80px; line-height: 1px; text-align: center; 
