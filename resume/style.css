@@ -1,6 +1,7 @@
 html, body { padding: 0; margin: 0; background-color: #2D2D2D; font-family: 微软雅黑, 宋体; }
 ul, ol, dl { list-style: none; }
 .clearfix { clear: both; }
+.hide { display: none; }
 
 .container { /* height: 297mm; */ width: 210mm; margin: 0 auto; background-color: #ffffff; }
 .content section { margin-bottom: 20px; }
@@ -11,6 +12,8 @@ ul, ol, dl { list-style: none; }
 section { color: #555555; }
 section ul.record-list { padding-left: 20px; padding-right: 20px; }
 section ul.record-list li { border-bottom: 2px solid #EDEDED; margin-top: 16px; padding-bottom: 10px; }
+section ul.record-list li.more { text-align: center; }
+section ul.record-list li.more a { color: #888888; font-size: 0.8; }
 section ul.record-list li .duration { float: right; font-weight: bold; color: #808080; width: 150px; }
 section ul.record-list li p { color: #777777; margin: 5px 0; }
 section ul.record-list li dl { color: #777777; margin: 5px 0; line-height: 1.5; }
